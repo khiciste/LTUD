@@ -32,16 +32,20 @@ nav ul a {
   font-size: 24px;
 }
 
+.sidenav li>a {
+  font-size: 20px;
+}
+
 main {
   margin-left: 20px;
 }
 
-.blue-text {
+.blue-font {
   color: #4472C4;
 }
 
-.red-text {
-  color: darkred;
+.red-font {
+  color: #d13d3d;
 }
 
 #menu-btn {
