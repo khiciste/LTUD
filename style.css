@@ -32,6 +32,10 @@ nav ul a {
   font-size: 24px;
 }
 
+main {
+  width: 95vw;
+}
+
 .blue-text {
   color: #4472C4;
 }
