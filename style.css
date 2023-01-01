@@ -1,0 +1,50 @@
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-family: Work Sans, Arial;
+/*   font-size: 10px; */
+}
+
+#banner {
+  color: white;
+  background-image: linear-gradient(red, purple, blue);
+  opacity: 0.7;
+  padding: 10px;
+  text-align: center;
+}
+
+#banner h1 {
+  font-family: 'Courier Prime', monospace;
+  font-size: 48px;
+}
+
+nav {
+  background-color: white !important;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul a {
+  font-size: 24px;
+}
+
+.blue-text {
+  color: #4472C4;
+}
+
+.red-text {
+  color: darkred;
+}
+
+#menu-btn {
+  opacity: 0.7;
+  margin: 5px;
+}
+
+.sidenav ul a {
+  font-size: 32px !important;
+}
