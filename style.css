@@ -35,7 +35,7 @@ article {
 /* NAV ================================================ */
 
 nav {
-  background-color: #ede4da !important;
+  background-color: #f3ebe1 !important;
 /*   border-bottom: 2px solid white; */
   box-shadow: none;
 }
@@ -48,8 +48,10 @@ nav ul {
 nav ul a {
   color: black;
   font-size: 20px;
+/*   font-weight: 300; */
   margin-left: 20px;
   margin-right: 20px;
+  letter-spacing: 2px;
 }
 
 .sidenav {
@@ -58,6 +60,8 @@ nav ul a {
 
 .sidenav li>a {
   font-size: 20px;
+/*   font-weight: 300; */
+  letter-spacing: 2px;
 }
 
 /* MAIN =================================================== */
