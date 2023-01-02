@@ -4,7 +4,7 @@ html, body {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  font-family: Work Sans, Arial;
+  font-family: 'Courier Prime', 'Courier New', Courier;
 /*   font-size: 10px; */
   background-color: #fff6ec;
 }
@@ -101,6 +101,7 @@ footer .col {
 
 footer a {
   color: black;
+  position: relative;
 }
 
 #footer-logo {
@@ -111,7 +112,12 @@ footer a {
 }
 
 .social-icons {
+  display:inline-block;
   width: 40px;
   height: auto;
   margin: 20px;
+}
+
+.hide {
+  display: none;
 }
