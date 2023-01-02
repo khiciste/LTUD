@@ -35,8 +35,8 @@ article {
 /* NAV ================================================ */
 
 nav {
-  background-color: #fff6ec !important;
-  border-bottom: 2px solid white;
+  background-color: #ede4da !important;
+/*   border-bottom: 2px solid white; */
   box-shadow: none;
 }
 
@@ -50,6 +50,10 @@ nav ul a {
   font-size: 20px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.sidenav {
+  background-color: #fff6ec;
 }
 
 .sidenav li>a {
