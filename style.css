@@ -1,12 +1,13 @@
 /* style for letterstouncledavid.com  */
+/* design by iwishwehadmoretime.com */
 
 html, body {
+  background-color: #fff6ec;
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  font-family: 'Courier Prime', 'Courier New', Courier;
+  font-family: 'Courier Prime', 'Cutive Mono', Courier;
 /*   font-size: 10px; */
-  background-color: #fff6ec;
 }
 
 /* keeps footer at bottom  */
@@ -20,17 +21,19 @@ article {
 /* BANNER ============================================= */
 
 #banner {
-  color: white;
+  color: #f3ebe1;
   background: rgb(0,112,192);
 background: linear-gradient(0deg, rgba(0,112,192,1) 0%, rgba(43,103,176,1) 11%, rgba(69,97,176,1) 23%, rgba(95,79,176,1) 40%, rgba(118,63,185,1) 53%, rgba(135,64,144,1) 65%, rgba(164,49,80,1) 78%, rgba(198,32,32,1) 88%, rgba(255,0,0,1) 100%);
-  opacity: 0.9;
+/*   opacity: 0.9; */
   padding: 10px;
   text-align: center;
 }
 
 #banner h1 {
-  font-family: 'Courier Prime', monospace;
+  font-family: 'Courier Prime', 'Cutive Mono', Courier;
   font-size: 48px;
+  font-weight: 200;
+/*   letter-spacing: 2px; */
 }
 
 /* NAV ================================================ */
@@ -39,11 +42,19 @@ nav {
   background-color: #f3ebe1 !important;
 /*   border-bottom: 2px solid white; */
   box-shadow: none;
+  height: 56px;
+  line-height: 56px;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
+}
+  
+nav ul li.current, nav ul li:hover {
+  color: #f3ebe1 !important;
+  background-color: rgb(0,112,192);
+  transition: none !important;
 }
 
 nav ul a {
@@ -51,7 +62,21 @@ nav ul a {
   font-size: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  transition: none !important;
+}
+
+.current {
+  color: #f3ebe1 !important;
+}
+
+.no-shadows {
+  box-shadow: none!important;
+}
+
+nav ul a:hover {
+  color: #f3ebe1;
+  background-color: rgb(0,112,192);
 }
 
 .sidenav {
@@ -61,7 +86,7 @@ nav ul a {
 
 .sidenav li>a {
   font-size: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 .user-view {
@@ -73,27 +98,39 @@ nav ul a {
   height: auto;
 }
 
+.sidenav ul a {
+  font-size: 32px !important;
+}
+
+
 /* MAIN =================================================== */
 main {
   margin-left: 5vw;
   margin-right: 5vw;
 }
 
-.blue-font {
-  color: #4472C4;
-}
-
-.red-font {
-  color: #d13d3d;
-}
-
 #menu-btn {
-  opacity: 0.9;
-  margin: 20px;
+  margin: 15px 30px 15px 15px;
+/*   opacity: 0.9; */
 }
 
-.sidenav ul a {
-  font-size: 32px !important;
+#menu-btn-p {
+  height: 48px;
+  width: 96px;
+  color: black;
+  border: 2px solid black;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+  line-height: 48px;
+}
+
+#menu-btn-p:hover {
+  color: #fff6ec;
+  background-color: rgb(0,112,192);
+  border: 2px solid rgb(0,112,192);
 }
 
 /*  FOOTER ===========================================  */
@@ -101,6 +138,7 @@ main {
 footer .row {
   background-color: #ede4da;
   margin-bottom: 0px !important;
+  padding-bottom: 20px;
 }
 
 footer .col {
@@ -111,6 +149,15 @@ footer .col {
 footer a {
   color: black;
   position: relative;
+}
+
+footer a:hover {
+  color: rgb(0,112,192);  
+}
+
+footer h5 {
+  font-size: 20px !important;
+  letter-spacing: 4px;
 }
 
 #footer-logo {
@@ -129,8 +176,4 @@ footer a {
 
 .hide {
   display: none;
-}
-
-#fb-blue {
-  fill: blue;
 }
