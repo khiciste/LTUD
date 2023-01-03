@@ -21,7 +21,8 @@ article {
 
 #banner {
   color: white;
-  background-image: linear-gradient(red, purple, blue);
+  background: rgb(0,112,192);
+  background: linear-gradient(0deg, rgba(0,112,192,1) 0%, rgba(43,103,176,1) 12%, rgba(69,97,176,1) 26%, rgba(95,79,176,1) 40%, rgba(118,63,185,1) 53%, rgba(135,64,144,1) 67%, rgba(164,49,80,1) 79%, rgba(198,32,32,1) 87%, rgba(255,0,0,1) 100%);
   opacity: 0.7;
   padding: 10px;
   text-align: center;
@@ -48,7 +49,6 @@ nav ul {
 nav ul a {
   color: black;
   font-size: 20px;
-/*   font-weight: 300; */
   margin-left: 20px;
   margin-right: 20px;
   letter-spacing: 2px;
@@ -61,7 +61,6 @@ nav ul a {
 
 .sidenav li>a {
   font-size: 20px;
-/*   font-weight: 300; */
   letter-spacing: 2px;
 }
 
@@ -130,4 +129,8 @@ footer a {
 
 .hide {
   display: none;
+}
+
+#fb-blue {
+  fill: blue;
 }
