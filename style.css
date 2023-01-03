@@ -55,6 +55,7 @@ nav ul a {
 }
 
 .sidenav {
+  width: 350px;
   background-color: #fff6ec;
 }
 
@@ -62,6 +63,15 @@ nav ul a {
   font-size: 20px;
 /*   font-weight: 300; */
   letter-spacing: 2px;
+}
+
+.user-view {
+  height: 200px;
+}
+
+.sidenav img {
+  max-height: 100%;
+  height: auto;
 }
 
 /* MAIN =================================================== */
@@ -80,7 +90,7 @@ main {
 
 #menu-btn {
   opacity: 0.7;
-  margin: 10px;
+  margin: 20px;
 }
 
 .sidenav ul a {
