@@ -22,8 +22,8 @@ article {
 #banner {
   color: white;
   background: rgb(0,112,192);
-  background: linear-gradient(0deg, rgba(0,112,192,1) 0%, rgba(43,103,176,1) 12%, rgba(69,97,176,1) 26%, rgba(95,79,176,1) 40%, rgba(118,63,185,1) 53%, rgba(135,64,144,1) 67%, rgba(164,49,80,1) 79%, rgba(198,32,32,1) 87%, rgba(255,0,0,1) 100%);
-  opacity: 0.7;
+background: linear-gradient(0deg, rgba(0,112,192,1) 0%, rgba(43,103,176,1) 11%, rgba(69,97,176,1) 23%, rgba(95,79,176,1) 40%, rgba(118,63,185,1) 53%, rgba(135,64,144,1) 65%, rgba(164,49,80,1) 78%, rgba(198,32,32,1) 88%, rgba(255,0,0,1) 100%);
+  opacity: 0.9;
   padding: 10px;
   text-align: center;
 }
@@ -88,7 +88,7 @@ main {
 }
 
 #menu-btn {
-  opacity: 0.7;
+  opacity: 0.9;
   margin: 20px;
 }
 
