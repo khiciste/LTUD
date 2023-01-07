@@ -18,6 +18,11 @@ article {
     grid-template-columns: 100%;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 /* BANNER ============================================= */
 
 #banner {
@@ -50,10 +55,13 @@ nav ul {
 }
 
 nav ul li {
-  transition: background-color 1s linear;
+  transition: 
+    background-color 500ms linear, 
+    color 500ms linear,
+    border 500ms linear;
 }
   
-nav ul li.current, nav ul li:hover {
+nav ul li:hover {
   color: #f3ebe1 !important;
   background-color: rgb(0,112,192);
   transition: none;
@@ -66,10 +74,6 @@ nav ul a {
   margin-right: 20px;
   letter-spacing: 4px;
   transition: none;
-}
-
-.current {
-  color: #f3ebe1 !important;
 }
 
 nav ul a:hover {
@@ -107,12 +111,34 @@ main {
   margin-right: 5vw;
 }
 
-#menu-btn {
-  margin: 15px 30px 15px 15px;
-/*   opacity: 0.9; */
+main h1 {
+  display: inline-block;
 }
 
-#menu-btn-p {
+main h2 {
+  font-size: 40px;
+}
+
+main p {
+  font-size: 18px;
+}
+
+main p a {
+  color: rgb(0,112,192);
+}
+
+main p a:hover {
+  font-weight: bold;
+}
+
+main .btn {
+  display: inline-block;
+  font-size: 20px !important;
+}
+
+#menu-btn {
+  margin: 15px -3vw 15px 15px;
+/*   opacity: 0.9; */
   height: 48px;
   width: 96px;
   color: black;
@@ -123,13 +149,14 @@ main {
   font-style: italic;
   text-align: center;
   line-height: 48px;
-  transition: background-color 1s linear;
+  transition: 
+    background-color 500ms linear, 
+    color 500ms linear;
 }
 
-#menu-btn-p:hover {
+#menu-btn:hover {
   color: #fff6ec;
   background-color: rgb(0,112,192);
-  border: 2px solid rgb(0,112,192);
 }
 
 /*  FOOTER ===========================================  */
