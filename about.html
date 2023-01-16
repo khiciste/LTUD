@@ -88,14 +88,15 @@
     <main>
 
       <!-- menu button -------------------------------->
-      <a href="#" data-target="mobile-nav" id="menu-btn" class="right sidenav-trigger ">menu</a>
+      <a href="#" data-target="mobile-nav" class="right button sidenav-trigger" id="menu-button" >menu</a>
       
       <h1>about</h1>
 
       <div class="row">
         <!-- mark pics -->
         <div class="col s12 m3">
-          
+          <img class="responsive" src="mark_headshot.jpg" />
+          <img class="responsive hide-on-med-and-down" src="read_mfin_books.PNG" />
         </div>
         <!-- bio -->
         <div class="col s12 m6">
@@ -106,10 +107,12 @@
           <p>
 Which is good, because I am endlessly curious and a bit neurotic about being the best version of myself. If my nose isn’t in a book, it’s because my ears are being serenaded by a sweet, sweet podcast or I’m reading a research article or watching a documentary.
           </p>
-
+          
           <p>
 My specialty lies in diving deep into topics and extrapolating the essentials, disseminating what I find to those around me who would likely never encounter it. After years of being told that I should collect my findings into a book, it occurred to me that I had unknowingly been doing that for the last 15 years in the form of angry unsent emails to my Uncle David. I don’t like conflict, so I never hit send on those snarky rebuttals to the heinous Alex Jones links he’d forward to me on Facebook-- but boy did it feel good to prove him wrong…
           </p>
+          
+          <img class="responsive hide-on-large" src="read_mfin_books.PNG" />
 
           <p>
 Then I started to wonder if he was wrong. Well… no, there were definitely things about which he was wrong-- but why? How was it that two people from the same town, of the same race and gender, from the same family, came to view the world so differently? It’s a combination of curiosity, kaizen, and the desire to leave the world better than I found it that led me to start writing Letters to Uncle David.
@@ -178,6 +181,9 @@ To watch me sing and dance as part of my day-job, visit my acapella group, ReVoi
             <img id="footer-logo" src="ltud_logo.jpeg" />
           </a>
           <p>&copy; 2023 ALL RIGHTS RESERVED</p>
+          <a href="https://iwishwehadmoretime.com">
+            <p>design by iwishwehadmoretime</p>
+          </a>
           
         </div>
 
@@ -185,24 +191,30 @@ To watch me sing and dance as part of my day-job, visit my acapella group, ReVoi
         <div class="col s12 m4">
           
           <br />
-          <br />
-          <a class="social-link" href="https://www.facebook.com/LettersToUncleDavid">
-            <img class="social-icons" src="facebook_logo_black.svg" />
-            <img class="social-icons hide" id="fb-blue" src="facebook_logo.png" />
+          
+          <!-- facebook -------------------------->
+          <a class="social-link" href="https://www.facebook.com/LettersToUncleDavid" target="_blank">
+            <img class="social-icons" 
+              src="facebook_logo_black.svg" />
+            <img class="social-icons hide" id="fb-blue" 
+              src="facebook_logo.png" />
           </a>
-
-          <a class="social-link" href="https://www.instagram.com/mark___warren/?hl=en">
-            <img class="social-icons" src="instagram_logo_black.png" />
-            <img class="social-icons hide" src="instagram_logo.png" />
+          <!-- insta ------------------------------->
+          <a class="social-link" href="https://www.instagram.com/mark___warren/?hl=en" target="_blank">
+            <img class="social-icons" 
+              src="instagram_logo_black.png" />
+            <img class="social-icons hide" 
+              src="instagram_logo.png" />
           </a>
-
-          <a class="social-link" href="https://twitter.com/markhasman">
+          <!-- twitter -------------------------------->
+          <a class="social-link" href="https://twitter.com/markhasman" target="_blank">
             <img class="social-icons" src="twitter_logo_black.png" />
             <img class="social-icons hide" src="twitter_logo_blue.png" />
           </a>
-          
-          <a href="http://iwishwehadmoretime.com">
-            <p>design by iwishwehadmoretime</p>
+          <!-- medium ---------------------------------->
+          <a class="social-link" href="https://medium.com/@MarkWarrenWrites" target="_blank">
+            <img class="social-icons medium-icons" src="medium_logo_black.png" />
+            <img class="social-icons medium-icons hide" src="medium_logo_white.png" />
           </a>
           
         </div>
@@ -223,7 +235,7 @@ To watch me sing and dance as part of my day-job, visit my acapella group, ReVoi
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
   <!-- custom JS -->
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 
 </body>
 
