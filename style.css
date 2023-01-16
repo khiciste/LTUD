@@ -74,7 +74,11 @@ nav ul li {
     color 500ms linear,
     border 500ms linear;
 }
-  
+
+.disabled {
+  color: lightgray;
+}
+
 nav ul li:hover {
   color: rgb(243, 235, 225) !important;
   background-color: rgb(0,112,192);
@@ -93,6 +97,23 @@ nav ul a {
 nav ul a:hover {
   color: rgb(243, 235, 225);
   background-color: rgb(0,112,192);
+}
+
+.sidenav a.disabled,
+.sidenav li.disabled {
+  color: lightgray;
+  background-color: rgb(255, 246, 236);
+  cursor: default;
+}
+
+nav ul a.disabled:hover, 
+nav ul li.disabled:hover, 
+.sidenav a.disabled:hover,
+.sidenav li.disabled:hover {
+  background-color: rgb(243, 235, 225) !important;
+  color: lightgray !important;
+  transition: none;
+  cursor: default;
 }
 
 .sidenav {
@@ -247,6 +268,11 @@ footer a {
 
 footer a:hover {
   color: rgb(0,112,192);  
+}
+
+footer a.disabled:hover {
+  color: lightgray;
+  cursor: auto;
 }
 
 .footer-link {
