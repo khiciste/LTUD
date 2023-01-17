@@ -38,14 +38,16 @@ article {
   color: rgb(0,112,192);
 }
 
-.vert-align {
-  display: flex;
-  align-items: center;
-/*   justify-content: center; */
-}
-
-.row .col {
-  margin-left: 20px !important;
+@media only screen and (min-width: 769px) {
+  .vert-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .vert-align .col {
+    margin: 0 20px 0 0 !important;
+  }  
 }
 
 
@@ -266,6 +268,7 @@ input[type='text'] {
 
 footer .row {
   background-color: rgb(237, 228, 218);
+  margin-top: 50px;
   margin-bottom: 0px !important;
   padding-bottom: 20px;
 }
