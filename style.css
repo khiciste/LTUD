@@ -38,6 +38,17 @@ article {
   color: rgb(0,112,192);
 }
 
+.vert-align {
+  display: flex;
+  align-items: center;
+/*   justify-content: center; */
+}
+
+.row .col {
+  margin-left: 20px !important;
+}
+
+
 /* BANNER ============================================= */
 
 #banner {
