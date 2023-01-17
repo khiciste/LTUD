@@ -21,6 +21,10 @@ article {
 
 /* functional css ==================================== */
 
+.centered-text {
+  text-align: center;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -32,6 +36,20 @@ article {
 .responsive {
   width: 100%;
   height: auto;
+}
+
+@font-face {
+  font-family: bangla;
+  src: url(banglaMN.ttf);
+}
+
+.bangla {
+  font-family: bangla;
+  letter-spacing: 2px;
+}
+
+.no-margin-bottom {
+  margin-bottom: -40px;
 }
 
 .our-blue {
