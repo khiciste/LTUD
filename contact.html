@@ -33,12 +33,24 @@
         <!-- large-screen nav -->
         <div class="nav-wrapper">
           <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="latest.html">LATEST</a></li>
-            <li><a href="blog.hmtl">BLOG</a></li>
-            <li><a href="resources.html">RESOURCES</a></li>
-            <li><a href="get_involved.html">GET INVOLVED</a></li>
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li class="disabled">
+              <a class="disabled" href="#">LATEST</a>
+            </li>
+            <li>
+              <a href="blog.html">BLOG</a>
+            </li>
+            <li>
+              <a href="resources.html">RESOURCES</a>
+            </li>
+            <li class="disabled">
+              <a class="disabled" href="#">GET INVOLVED</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -73,13 +85,26 @@
         <br />
         <br />
 
-        <!-- mobile nav links -->
-        <li><a href="idex.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="latest.html">LATEST</a></li>
-        <li><a href="blog.html">BLOG</a></li>
-        <li><a href="resources.html">RESOURCES</a></li>
-        <li><a href="get_involved.html">GET INVOLVED</a></li>
+        <!-- sidenav nav links -->
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li class="disabled">
+          <a class="disabled" href="#">LATEST</a>
+        </li>
+        <li>
+          <a href="blog.html">BLOG</a>
+        </li>
+        <li>
+          <a href="resources.html">RESOURCES</a>
+        </li>
+        <li class="disabled">
+          <a class="disabled" href="#">
+            GET INVOLVED</a>
+        </li>
       </ul>
     </header>
 
@@ -88,14 +113,13 @@
     <main>
 
       <!-- menu button -------------------------------->
-      <a href="#" data-target="mobile-nav" class="right button sidenav-trigger" id="menu-button" >menu</a>
-      
+      <a href="#" data-target="mobile-nav" class="right button sidenav-trigger" id="menu-button">menu</a>
+
       <h1>contact</h1>
 
       <!--CONTACT FORM ---------------------------------->
       <div class="row">
-        <form class="col s12" method="POST"
-          action="https://formspree.io/f/mlekdjvn">
+        <form class="col s12" method="POST" action="https://formspree.io/f/mlekdjvn">
           <div class="row">
             <div class="input-field col s10 offset-m1 m4">
               <input id="first_name" name="first name" type="text" class="validate">
@@ -109,33 +133,31 @@
             </div>
           </div>
           <div class="row">
-        <div class="input-field col s10 offset-m1 m4">
-          <input id="email" name="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
+            <div class="input-field col s10 offset-m1 m4">
+              <input id="email" name="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 offset-m1 m4">
+              <textarea id="textarea" name="message" class="materialize-textarea"></textarea>
+              <label for="textarea">Message</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s6 offset-s6 offset-m1 m4">
+              <button type="submit" id="submit-button" class="right button">SEND</button>
+            </div>
+          </div>
+        </form>
       </div>
-      <div class="row">
-        <div class="input-field col s12 offset-m1 m4">
-          <textarea id="textarea" name="message" 
-            class="materialize-textarea"></textarea>
-          <label for="textarea">Message</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s6 offset-s6 offset-m1 m4">
-          <button type="submit" id="submit-button" 
-            class="right button">SEND</button>
-        </div>
-      </div>
-    </form>
-  </div>
-      
+
     </main>
 
 
 
 
-    
+
     <footer>
 
       <div class="row center">
@@ -143,25 +165,25 @@
         <div class="col s12 m4">
 
           <br />
-          
+
           <a href="contact.html">
-            <h5>CONTACT</h5>
+            <p class="footer-link">CONTACT</p>
           </a>
           <a href="blog.html">
-            <h5>BLOG</h5>
+            <p class="footer-link">BLOG</p>
           </a>
-          <a href="newsletter.html">
-            <h5>NEWSLETTER</h5>
+          <a class="disabled" href="#">
+            <p class="footer-link">NEWSLETTER</p>
           </a>
-          <a href="store.html">
-            <h5>STORE</h5>
+          <a class="disabled" href="#">
+            <p class="footer-link">STORE</p>
           </a>
-          
+
         </div>
 
         <!-- logo -------------------------------------------->
         <div class="col s12 m4">
-          
+
           <br />
           <a href="index.html">
             <img id="footer-logo" src="ltud_logo.jpeg" />
@@ -170,27 +192,23 @@
           <a href="https://iwishwehadmoretime.com">
             <p>design by iwishwehadmoretime</p>
           </a>
-          
+
         </div>
 
         <!-- social ---------------------------------------->
         <div class="col s12 m4">
-          
+
           <br />
-          
+
           <!-- facebook -------------------------->
           <a class="social-link" href="https://www.facebook.com/LettersToUncleDavid" target="_blank">
-            <img class="social-icons" 
-              src="facebook_logo_black.svg" />
-            <img class="social-icons hide" id="fb-blue" 
-              src="facebook_logo.png" />
+            <img class="social-icons" src="facebook_logo_black.svg" />
+            <img class="social-icons hide" id="fb-blue" src="facebook_logo.png" />
           </a>
           <!-- insta ------------------------------->
           <a class="social-link" href="https://www.instagram.com/mark___warren/?hl=en" target="_blank">
-            <img class="social-icons" 
-              src="instagram_logo_black.png" />
-            <img class="social-icons hide" 
-              src="instagram_logo.png" />
+            <img class="social-icons" src="instagram_logo_black.png" />
+            <img class="social-icons hide" src="instagram_logo.png" />
           </a>
           <!-- twitter -------------------------------->
           <a class="social-link" href="https://twitter.com/markhasman" target="_blank">
@@ -202,9 +220,9 @@
             <img class="social-icons medium-icons" src="medium_logo_black.png" />
             <img class="social-icons medium-icons hide" src="medium_logo_white.png" />
           </a>
-          
+
         </div>
-        
+
       </div>
       <!-- .row -->
 
