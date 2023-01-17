@@ -7,6 +7,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Courier Prime', 'Cutive Mono', Courier;
+  overflow-x: hidden;
 /*   font-size: 10px; */
 }
 
@@ -195,12 +196,8 @@ main p a:hover {
   font-style: italic;
 }
 
-.button:hover {
-  color: rgb(255, 246, 236);
-  background-color: rgb(0,112,192);
-}
-
 .button {
+  font-family: 'Courier Prime', 'Cutive Mono', Courier;
   color: black;
   border: 2px solid black;
   letter-spacing: 2px;
@@ -213,6 +210,12 @@ main p a:hover {
   transition: 
     background-color 500ms linear, 
     color 500ms linear;
+}
+
+.button:hover {
+  color: rgb(255, 246, 236);
+  background-color: rgb(0,112,192);
+  border: rgb(0,112,192);
 }
 
 input[type='text'] {
