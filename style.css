@@ -42,11 +42,11 @@ article {
   .vert-align {
     display: flex;
     align-items: center;
-    justify-content: center;
+/*     justify-content: center; */
   }
   
   .vert-align .col {
-    margin: 0 20px 0 0 !important;
+    margin: 0 40px 0 0 !important;
   }  
 }
 
