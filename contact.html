@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Letters to Uncle David</title>
+  <!-- Google web fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@200;300;400&family=Cutive+Mono&family=Montserrat:wght@300;400&family=Work+Sans:wght@200;300;400&display=swap"
+    rel="stylesheet">
+  <!-- materialize icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- custom CSS -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <article>
+
+    <header>
+      <div id="banner">
+        <h1>Letters to Uncle David</h1>
+      </div>
+
+      <nav class="hide-on-med-and-down">
+        <!-- large-screen nav -->
+        <div class="nav-wrapper">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="latest.html">LATEST</a></li>
+            <li><a href="blog.hmtl">BLOG</a></li>
+            <li><a href="resources.html">RESOURCES</a></li>
+            <li><a href="get_involved.html">GET INVOLVED</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- mobile nav -->
+      <!-- mobile nav header -->
+      <ul class="sidenav" id="mobile-nav">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="ltud_biz_card.jpeg">
+            </div>
+            <!-- 
+            <a href="#user"><img class="circle" src="ltud_logo.jpeg"></a>
+          
+            <a href="#name">
+              <span class="white-text name">
+                Letters to Uncle David
+              </span>
+            </a>
+            <a href="#email">
+              <span class="white-text email">email@gmail.com</span>
+            </a>
+            -->
+          </div>
+        </li>
+        <!-- close button -->
+        <li>
+          <a class="sidenav-close right" href="#!">x</a>
+        </li>
+
+        <br />
+        <br />
+
+        <!-- mobile nav links -->
+        <li><a href="idex.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="latest.html">LATEST</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="resources.html">RESOURCES</a></li>
+        <li><a href="get_involved.html">GET INVOLVED</a></li>
+      </ul>
+    </header>
+
+    <!-- MAIN --------------------------------------------->
+
+    <main>
+
+      <!-- menu button -------------------------------->
+      <a href="#" data-target="mobile-nav" class="right button sidenav-trigger" id="menu-button" >menu</a>
+      
+      <h1>contact</h1>
+
+      <!--CONTACT FORM ---------------------------------->
+      <div class="row">
+        <form class="col s12" method="POST"
+          action="https://formspree.io/f/mlekdjvn">
+          <div class="row">
+            <div class="input-field col s10 offset-m1 m4">
+              <input id="first_name" name="first name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s10 offset-m1 m4">
+              <input id="last_name" name="last name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+        <div class="input-field col s10 offset-m1 m4">
+          <input id="email" name="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 offset-m1 m4">
+          <textarea id="textarea" name="message" 
+            class="materialize-textarea"></textarea>
+          <label for="textarea">Message</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6 offset-s6 offset-m1 m4">
+          <a type="submit" id="submit-button" 
+            class="right button">SEND</a>
+        </div>
+      </div>
+    </form>
+  </div>
+      
+    </main>
+
+
+
+
+    
+    <footer>
+
+      <div class="row center">
+        <!-- links ---------------------------------------->
+        <div class="col s12 m4">
+
+          <br />
+          
+          <a href="contact.html">
+            <h5>CONTACT</h5>
+          </a>
+          <a href="blog.html">
+            <h5>BLOG</h5>
+          </a>
+          <a href="newsletter.html">
+            <h5>NEWSLETTER</h5>
+          </a>
+          <a href="store.html">
+            <h5>STORE</h5>
+          </a>
+          
+        </div>
+
+        <!-- logo -------------------------------------------->
+        <div class="col s12 m4">
+          
+          <br />
+          <a href="index.html">
+            <img id="footer-logo" src="ltud_logo.jpeg" />
+          </a>
+          <p>&copy; 2023 ALL RIGHTS RESERVED</p>
+          <a href="https://iwishwehadmoretime.com">
+            <p>design by iwishwehadmoretime</p>
+          </a>
+          
+        </div>
+
+        <!-- social ---------------------------------------->
+        <div class="col s12 m4">
+          
+          <br />
+          
+          <!-- facebook -------------------------->
+          <a class="social-link" href="https://www.facebook.com/LettersToUncleDavid" target="_blank">
+            <img class="social-icons" 
+              src="facebook_logo_black.svg" />
+            <img class="social-icons hide" id="fb-blue" 
+              src="facebook_logo.png" />
+          </a>
+          <!-- insta ------------------------------->
+          <a class="social-link" href="https://www.instagram.com/mark___warren/?hl=en" target="_blank">
+            <img class="social-icons" 
+              src="instagram_logo_black.png" />
+            <img class="social-icons hide" 
+              src="instagram_logo.png" />
+          </a>
+          <!-- twitter -------------------------------->
+          <a class="social-link" href="https://twitter.com/markhasman" target="_blank">
+            <img class="social-icons" src="twitter_logo_black.png" />
+            <img class="social-icons hide" src="twitter_logo_blue.png" />
+          </a>
+          <!-- medium ---------------------------------->
+          <a class="social-link" href="https://medium.com/@MarkWarrenWrites" target="_blank">
+            <img class="social-icons medium-icons" src="medium_logo_black.png" />
+            <img class="social-icons medium-icons hide" src="medium_logo_white.png" />
+          </a>
+          
+        </div>
+        
+      </div>
+      <!-- .row -->
+
+    </footer>
+
+  </article>
+
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <!-- materialize js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- custom JS -->
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
