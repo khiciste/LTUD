@@ -12,7 +12,7 @@ html, body {
   overflow-x: hidden;
 }
 
-/* keeps footer at bottom  */
+/* keeps footer at bottom */
 article {
     min-height: 100%;
     display: grid;
