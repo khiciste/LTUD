@@ -9,6 +9,9 @@ $(document).ready(function(){
     edge: 'right', // Choose the horizontal origin
     closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
   });
+  
+  // MODAL INITIALIZATION
+  $('.modal').modal();
 
   // show color icon on hover
   $('.social-link').hover(function() {

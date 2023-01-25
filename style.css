@@ -263,10 +263,20 @@ blockquote {
   font-size: 18px;
 }
 
+.modal,
+.modal .modal-footer {
+  background-color: rgb(243, 235, 225);
+}
+
 #menu-button {
   margin: 15px -3vw 15px 15px;
   padding-left: 15px;
   padding-right: 15px;
+  font-style: italic;
+}
+
+button {
+  background-color: transparent;
   font-style: italic;
 }
 
@@ -296,33 +306,13 @@ input[type='text'] {
   font-family: 'Courier Prime', 'Cutive Mono', Courier;
 }
 
-.communication {
-  color: rgb(0, 185, 255);
-}
-
-.authority {
- color: rgb(255, 153, 0); 
-}
-
-.loyalty {
-  color: rgb(0, 220, 0);
-}
-
-.fairness {
-  color: rgb(153, 0 , 255);
-}
-
-.harm {
-  color: rgb(0, 0, 255);
-}
-
-.sanctity {
-  color: rgb(255, 0, 255);
-}
-
-.freedom {
-  color: rgb(152, 0, 0);
-}
+.communication { color: rgb(0, 185, 255); }
+.authority { color: rgb(255, 153, 0); }
+.loyalty { color: rgb(0, 220, 0); }
+.fairness { color: rgb(153, 0 , 255);}
+.harm { color: rgb(0, 0, 255); }
+.sanctity { color: rgb(255, 0, 255); }
+.freedom { color: rgb(152, 0, 0); }
 
 
 /*  FOOTER ===========================================  */
