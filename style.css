@@ -12,7 +12,7 @@ html, body {
   overflow-x: hidden;
 }
 
-/* keeps footer at bottom */
+/* keeps footer at bottom  */
 article {
     min-height: 100%;
     display: grid;
@@ -249,6 +249,18 @@ main p a {
 
 main p a:hover {
   font-weight: bold;
+}
+
+main li {
+  font-size: 24px;
+}
+
+.footnotes li {
+  font-size: 12px;
+}
+
+blockquote {
+  font-size: 18px;
 }
 
 #menu-button {
