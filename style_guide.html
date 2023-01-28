@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 
+<!-- STYLE GUIDE ----------------------------------->
+
 <head>
-  <!-- STYLE GUIDE --------------------------->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Letters to Uncle David</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <!-- materialize icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- materialize CSS -->
@@ -28,12 +31,21 @@
         <!-- large-screen nav -->
         <div class="nav-wrapper">
           <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="latest.html">LATEST</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="resources.html">RESOURCES</a></li>
-            <li><a href="get_involved.html">GET INVOLVED</a></li>
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="blog.html">BLOG</a>
+            </li>
+            <li>
+              <a href="resources.html">RESOURCES</a>
+            </li>
+            <li class="disabled">
+              <a class="disabled" href="#">LATEST</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -68,13 +80,22 @@
         <br />
         <br />
 
-        <!-- mobile nav links -->
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="latest.html">LATEST</a></li>
-        <li><a href="blog.html">BLOG</a></li>
-        <li><a href="resources.html">RESOURCES</a></li>
-        <li><a href="get_involved.html">GET INVOLVED</a></li>
+        <!-- sidenav nav links -->
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="blog.html">BLOG</a>
+        </li>
+        <li>
+          <a href="resources.html">RESOURCES</a>
+        </li>
+        <li class="disabled">
+          <a class="disabled" href="#">LATEST</a>
+        </li>
       </ul>
     </header>
 
@@ -83,10 +104,10 @@
     <main>
 
       <!-- menu button -------------------------------->
-      <a href="#" data-target="mobile-nav" class="right button sidenav-trigger" id="menu-button" >menu</a>
-      
+      <a href="#" data-target="mobile-nav" class="right button sidenav-trigger" id="menu-button">menu</a>
+
       <h1>style guide</h1>
-      
+
       <section class="sg-box">
         <h2>color</h2>
         <div class="sg-color-box" id="banner-gradient">
@@ -110,7 +131,7 @@
           <p>rgb(243, 235, 225)</p>
         </div>
       </section>
-      
+
       <section class="sg-box">
         <h2>fonts</h2>
         <div class="sg-font-box">
@@ -120,60 +141,60 @@
           <p class="italic">The quick brown fox jumps over the lazy dog.</p>
         </div>
       </section>
-      
+
       <section class="sg-box">
         <h2>text styles</h2>
         <h1>h1: main page heading</h1>
-          <ul>
-            <li>font-weight: 400</li>
-            <li>font-size: 60px</li>
-            <li>font-family: 'Courier Prime'</li>
-          </ul>
+        <ul>
+          <li>font-weight: 400</li>
+          <li>font-size: 60px</li>
+          <li>font-family: 'Courier Prime'</li>
+        </ul>
         <h2>h2: sub-headings</h2>
-          <ul>
-            <li>font-weight: 400</li>
-            <li>font-size: 40px</li>
-            <li>font-family: 'Courier Prime'</li>
-          </ul>
+        <ul>
+          <li>font-weight: 400</li>
+          <li>font-size: 40px</li>
+          <li>font-family: 'Courier Prime'</li>
+        </ul>
         <h3>h3: not in use</h3>
-          <ul>
-            <li>font-weight: 400</li>
-            <li>font-size: 32px</li>
-            <li>font-family: 'Courier Prime'</li>
-          </ul>
+        <ul>
+          <li>font-weight: 400</li>
+          <li>font-size: 32px</li>
+          <li>font-family: 'Courier Prime'</li>
+        </ul>
         <p class="footer-link">p: FOOTER LINKS</p>
-          <ul>
-            <li>font-weight: 400</li>
-            <li>font-size: 20px</li>
-            <li>font-family: 'Courier Prime'</li>
-            <li>letter-spacing: 4px</li>
-          </ul>
+        <ul>
+          <li>font-weight: 400</li>
+          <li>font-size: 20px</li>
+          <li>font-family: 'Courier Prime'</li>
+          <li>letter-spacing: 4px</li>
+        </ul>
         <p>p: paragraphs</p>
-          <ul>
-            <li>font-weight: 400</li>
-            <li>font-size: 18px</li>
-            <li>font-family: 'Courier Prime'</li>
-            <li>letter-spacing:
-              <ul>
-                <li>nav: 4px</li>
-                <li>menu button: 2px</li>
-              </ul>
-            </li>
-          </ul>
+        <ul>
+          <li>font-weight: 400</li>
+          <li>font-size: 18px</li>
+          <li>font-family: 'Courier Prime'</li>
+          <li>letter-spacing:
+            <ul>
+              <li>nav: 4px</li>
+              <li>menu button: 2px</li>
+            </ul>
+          </li>
+        </ul>
         <p class="our-blue">a: links</p>
-          <ul>
-            <li>font-weight: 400</li>
-            <li>font-size: 20px</li>
-            <li>font-family: 'Courier Prime'</li>
-            <li>color: rgb()</li>
-          </ul>
+        <ul>
+          <li>font-weight: 400</li>
+          <li>font-size: 20px</li>
+          <li>font-family: 'Courier Prime'</li>
+          <li>color: rgb()</li>
+        </ul>
       </section>
     </main>
 
 
 
 
-    
+
     <footer>
 
       <div class="row center">
@@ -181,7 +202,7 @@
         <div class="col s12 m4">
 
           <br />
-          
+
           <a href="contact.html">
             <h5>CONTACT</h5>
           </a>
@@ -194,12 +215,12 @@
           <a href="store.html">
             <h5>STORE</h5>
           </a>
-          
+
         </div>
 
         <!-- logo -------------------------------------------->
         <div class="col s12 m4">
-          
+
           <br />
           <a href="index.html">
             <img id="footer-logo" src="ltud_logo.jpeg" />
@@ -208,27 +229,23 @@
           <a href="http://iwishwehadmoretime.com">
             <p>design by iwishwehadmoretime</p>
           </a>
-          
+
         </div>
 
         <!-- social ---------------------------------------->
         <div class="col s12 m4">
-          
+
           <br />
-          
+
           <!-- facebook -------------------------->
           <a class="social-link" href="https://www.facebook.com/LettersToUncleDavid" target="_blank">
-            <img class="social-icons" 
-              src="facebook_logo_black.svg" />
-            <img class="social-icons hide" id="fb-blue" 
-              src="facebook_logo.png" />
+            <img class="social-icons" src="facebook_logo_black.svg" />
+            <img class="social-icons hide" id="fb-blue" src="facebook_logo.png" />
           </a>
           <!-- insta ------------------------------->
           <a class="social-link" href="https://www.instagram.com/mark___warren/?hl=en" target="_blank">
-            <img class="social-icons" 
-              src="instagram_logo_black.png" />
-            <img class="social-icons hide" 
-              src="instagram_logo.png" />
+            <img class="social-icons" src="instagram_logo_black.png" />
+            <img class="social-icons hide" src="instagram_logo.png" />
           </a>
           <!-- twitter -------------------------------->
           <a class="social-link" href="https://twitter.com/markhasman" target="_blank">
@@ -240,9 +257,9 @@
             <img class="social-icons medium-icons" src="medium_logo_black.png" />
             <img class="social-icons medium-icons hide" src="medium_logo_white.png" />
           </a>
-          
+
         </div>
-        
+
       </div>
       <!-- .row -->
 
