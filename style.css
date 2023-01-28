@@ -26,6 +26,11 @@ article {
   text-align: center;
 }
 
+.centered-h {
+  display: flex;
+  justify-content: center;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -313,6 +318,15 @@ input[type='text'] {
 .harm { color: rgb(0, 0, 255); }
 .sanctity { color: rgb(255, 0, 255); }
 .freedom { color: rgb(152, 0, 0); }
+
+img.responsive-h-300px {
+  max-height: 300px;
+  width: auto;
+}
+img.responsive-w-300px {
+  max-width: 300px;
+  height: auto;
+}
 
 
 /*  FOOTER ===========================================  */
